@@ -1,0 +1,121 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8.5in;
+  font-family: Arvo, sans-serif;
+  font-size: 0.75em;
+  background-image: url("body_background.png");
+  background-repeat: repeat-xy;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, li, section {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+h2 {
+  margin: 10px 0 5px 0;
+  background-color: #cccccc;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h3 {
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+li {
+  list-style-type: circle;
+  margin-left: 16px;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.right {
+  float: right;
+  text-align: right;
+  display: inline-block;
+  width: 25%;
+}
+
+.center {
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.title-lev1 {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.title-lev2 {
+  font-weight: bold;
+}
+
+.dates {
+  font-weight: bold;
+  float: right;
+  text-align: right;
+}
+
+.company {
+  display: inline-block;
+  text-indent: 1em;
+}
+
+.company .name {
+  font-weight: bold;
+}
+
+.description-list {
+  margin-top: 3px;
+}
+
+#content-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#contact-info {
+  display: none;
+  margin: 0 0 5px 0;
+}
+
+#courses-section section {
+  width: 49.5%;
+  display: inline-block;
+}
+
+#courses-section h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+@media print {
+  body {
+    background: none;
+    margin: 0;
+  }
+
+  h2 {
+    margin: 5px 0 5px 0;
+  }
+
+  .noprint {
+    display: none;
+  }
+}
