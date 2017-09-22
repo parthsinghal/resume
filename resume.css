@@ -5,8 +5,7 @@ body {
   font-family: Titillium Web, sans-serif;
   font-size: 0.9em;
   line-height: 1.3;
-  background-image: url("body_background.png");
-  background-repeat: repeat-xy;
+  background-color: #aaaaaa;
 }
 
 h1, h2, h3, h4, h5, h6, ol, ul, li, section {
@@ -72,8 +71,7 @@ a:link, a:visited {
 }
 
 .title-lev1 {
-  font-weight: 900;
-  font-style: italic;
+  font-weight: 700;
 }
 
 .title-lev2 {
@@ -87,12 +85,10 @@ a:link, a:visited {
 }
 
 .company {
-  display: inline-block;
-  text-indent: 1em;
-}
-
-.company .name {
-    font-style: italic;
+    display: inline-block;
+    font-variant: small-caps;
+    font-weight: 700;
+  /*text-indent: 1em;*/
 }
 
 .description-list {
